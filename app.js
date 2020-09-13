@@ -19,7 +19,6 @@ var three = 'three: declared outside the block';
 
 if (true === true) {
   three = 'three: changed inside the block'; // notice: we don't redeclare
-  console.log(three); // prints 'three: changed inside the block'
 }
 
 console.log(three); // also prints 'three: changed inside the block', because the variable has function scope. This means that the value change in the block is reflected throughout the function, i.e., outside the block.
@@ -30,7 +29,6 @@ let four = 'four: outside the block';
 
 if (true === true) {
   four = 'four: inside the block'; // notice: we don't redeclare the variable
-  console.log(four); // prints 'four: inside the block'
 }
 
 console.log(four); // prints 'four: inside the block', because we didn't redeclare the variable inside the block. That meant we referenced the variable outside the block, and we therefore changed it.
