@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_generator",
+  "version": "1.0.0",
+  "description": "JQueen Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queen-stack/portfolio_generator.git"
+  },
+  "keywords": [
+    "keys"
+  ],
+  "author": "Jenifer Queen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queen-stack/portfolio_generator/issues"
+  },
+  "homepage": "https://github.com/queen-stack/portfolio_generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
