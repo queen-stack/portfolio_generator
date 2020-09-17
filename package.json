@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/queen-stack/portfolio_generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquire": "^0.4.8",
+    "inquirer": "^7.3.3",
+    "moment": "^2.28.0"
   }
 }
