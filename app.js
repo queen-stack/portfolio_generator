@@ -78,7 +78,7 @@ const promptProject = portfolioData => {
           if (nameInput) {
             return true;
           } else {
-            console.log('Please enter your project name!');
+            console.log('Please enter the Project Description!');
             return false;
           }
         }
@@ -97,7 +97,7 @@ const promptProject = portfolioData => {
           if (nameInput) {
             return true;
           } else {
-            console.log('Please enter your project name!');
+            console.log('Please enter GitHub link to your project!');
             return false;
           }
         }
